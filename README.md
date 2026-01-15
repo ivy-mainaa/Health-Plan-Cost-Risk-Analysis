@@ -89,7 +89,7 @@ High-cost risk is primarily driven by lifestyle and health behavior factors.
 
 ## Repository Structure
 
-'''
+```
 Health-Plan-Cost-Risk-Analysis/
 │
 ├── data/
@@ -99,7 +99,7 @@ Health-Plan-Cost-Risk-Analysis/
 │   └── 02_High_Cost_Risk_Model.ipynb
 ├── README.md
 └── .gitignore
-'''
+```
 
 ---
 
