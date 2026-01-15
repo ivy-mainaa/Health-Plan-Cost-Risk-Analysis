@@ -4,7 +4,9 @@ Predicting High-Cost Patients Using Demographic & Behavioral Data.
 This project analyzes U.S. medical insurance records to understand the drivers of medical spending and predict high-cost patients, a critical use case for payer organizations and health plans.
 
 The analysis is split into two notebooks:
+
 **1. 01_Health_Plan_EDA.ipynb - Exploratory Data Analysis**
+
 **2. 02_High_Cost_Risk_Model.ipynb - Predictive Modeling**
 
 ---
@@ -26,10 +28,13 @@ Source: Kaggle – Medical Cost Personal Dataset
 https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 **Observations:** 1,337
+
 **Target:** Annual medical charges
+
 **Engineering Label:**
-high_cost = 1 if annual charges > 75th percentile
-high_cost = 0 otherwise
+
+- high_cost = 1 if annual charges > 75th percentile
+- high_cost = 0 otherwise
 
 ---
 
@@ -84,6 +89,7 @@ High-cost risk is primarily driven by lifestyle and health behavior factors.
 
 ## Repository Structure
 
+'''
 Health-Plan-Cost-Risk-Analysis/
 │
 ├── data/
@@ -93,6 +99,7 @@ Health-Plan-Cost-Risk-Analysis/
 │   └── 02_High_Cost_Risk_Model.ipynb
 ├── README.md
 └── .gitignore
+'''
 
 ---
 
